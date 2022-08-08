@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black !important;
+    color: black !important;
+    font-family:"poppins", sans-serif;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+}
+
+.navbar_logo{
+    width: 50px;
+    height: 50%;
+}
+
+.company_logo{
+    width: 70px;
+    height: 70%;
+}
+
+.logout_button{
+    border: #dc030f;
+    background-color: #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.company_name{
+    margin-top: 20px;
+    background: linear-gradient(
+      to right, 
+      hsl(98 100% 62%), 
+      hsl(204 100% 59%)
+    );
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  
+  .company_name h1 {
+    font-size: 65px;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.table{
+    margin-top: 85px;
+}
+
+.loggeduser
+{
+    border: #dc030f;
+    background-color: #009879;
+    padding: 0.01rem 0.01rem;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+    margin-top: 20px;
+   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

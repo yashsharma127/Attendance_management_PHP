@@ -40,7 +40,7 @@ Before you can use this application, ensure you have the following prerequisites
    cd Attendance_management_PHP
    ```
 
-2. Now rename env files from .env.example to .env
+2. Now MySql Database setup
 
    ```bash
     Setup Your database for MySql using XAMPP

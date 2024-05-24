@@ -1,5 +1,5 @@
 <?php
-include "database.php";
+include "../Database/database.php";
 ?>
 
 
@@ -34,6 +34,6 @@ include "database.php";
             }
         
       
-      header("location:page1.php");
+      header("location: ../pages/page1.php");
     ?>
 

@@ -1,6 +1,6 @@
 
 <?php
-include 'database.php';
+include '../Database/database.php';
 ?>
 
 <?php
@@ -11,7 +11,7 @@ $deletequery = "DELETE FROM `employee` WHERE EmployeeID=$id";
 
 $query = mysqli_query($conn,$deletequery);
 
-header("location:page1.php");
+header("location: ../pages/page1.php");
 
 ?>
                                                 

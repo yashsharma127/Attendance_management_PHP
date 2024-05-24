@@ -13,8 +13,8 @@ ob_clean();
 <html>
 <head>
         <title>Attendance management system</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="style3.css" />
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/style3.css" />
   <style>.error{color:#FF0000;}</style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -23,7 +23,7 @@ ob_clean();
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>    
-  <link rel="stylesheet" href="style3.css"/>
+  <link rel="stylesheet" href="../styles/style3.css"/>
    <?php
   include "database.php";
   ?>
@@ -33,7 +33,7 @@ ob_clean();
     <header>
          <nav class ="navbar">
     <div class="navbar_logo">
-            <img src="logo1.png" alt="logo" class="company_logo" />
+            <img src="../images/logo1.png" alt="logo" class="company_logo" />
           </div>
           
           <center>
@@ -49,7 +49,7 @@ ob_clean();
               
             
           </div>
-          <a href="logout.php" name = "log_out" value="logout" class="logout_button">Log out</a>
+          <a href="../Auth/logout.php" name = "log_out" value="logout" class="logout_button">Log out</a>
           
             </div>
 
@@ -349,7 +349,7 @@ ob_clean();
                     
                     data-bs-toggle="modal" data-bs-target="#updateModal" title="Update">
                       <i class="fa fa-edit" aria-hidden="true"></i> </a> </td>
-              <td> <a   href="delete.php?id=<?php echo $res['EmployeeID']; ?>" 
+              <td> <a   href="../Database/delete.php?id=<?php echo $res['EmployeeID']; ?>" 
                       data-bs-toggle="tooltip" data-bs-placement="bottom" title="Delete">
                       <i class="fa fa-trash" aria-hidden="true"></i> </a></td>
                   </tr>
@@ -670,7 +670,7 @@ ob_clean();
                     
                           data-bs-toggle="modal" data-bs-target="#attendanceupdate" data-bs-placement="bottom" title="Update" >
                             <i class="fa fa-edit" aria-hidden="true"></i> </a> </td>
-                          <td> <a href="delete1.php?ids=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Delete">
+                          <td> <a href="../Database/delete1.php?ids=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Delete">
                             <i class="fa fa-trash" aria-hidden="true"></i> </a></td>
                         </tr>
                           <?php
@@ -698,7 +698,7 @@ ob_clean();
           <!-- Modal body -->
           <div class="modal-body">
           <p><span class ="error">*required field</span></p>
-          <form method="post" id="update1-2" action="updatedemo1.php" enctype ="multipart/form-data">
+          <form method="post" id="update1-2" action="../Database/updatedemo1.php" enctype ="multipart/form-data">
         
           <table>
       <tbody>

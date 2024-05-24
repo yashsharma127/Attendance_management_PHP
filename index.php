@@ -59,7 +59,7 @@
 				// print_r($name);exit;
 				$_SESSION['success'] = "You are now logged in";
 				
-				header('location: page1.php');
+				header('location: ./pages/page1.php');
 				
 				}else {
 				$errors = 1;

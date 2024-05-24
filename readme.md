@@ -3,8 +3,8 @@
 A attendance management system created for managing the attendance of employees working in a company. This project is a part of my web development php internship 2022. Used the complex use of php and MySql and setup a perfect attendance managment system. This project is a good practice for full-stack web development since from database setup to php codes everything is manually set.
 
 ## User Interface
-<img src="./images/1.jpeg" width="400" height="200"> <img src="./images/2.jpeg" width="400" height="200"> 
-<img src="./images/3.jpeg" width="400" height="200"> <img src="./images/4.jpeg" width="400" height="200"> 
+<img src="./images/1.jpeg" width="400" height="300"> <img src="./images/2.jpeg" width="300" height="200"> 
+<img src="./images/3.jpeg" width="400" height="300"> <img src="./images/4.jpeg" width="300" height="200"> 
 
 ## Features and Technologies used
 
